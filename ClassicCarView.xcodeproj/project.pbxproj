@@ -24,6 +24,8 @@
 		A025726818AE086D003BB3A1 /* iPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A025726718AE086D003BB3A1 /* iPhoneViewController.m */; };
 		A025726B18AE0892003BB3A1 /* iPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A025726A18AE0892003BB3A1 /* iPadViewController.m */; };
 		A025726D18AE0D8C003BB3A1 /* iPadView in Resources */ = {isa = PBXBuildFile; fileRef = A025726C18AE0D8C003BB3A1 /* iPadView */; };
+		A025727318AE1486003BB3A1 /* Example.m in Sources */ = {isa = PBXBuildFile; fileRef = A025727218AE1486003BB3A1 /* Example.m */; };
+		A025727618AE14C5003BB3A1 /* Example.m in Sources */ = {isa = PBXBuildFile; fileRef = A025727518AE14C5003BB3A1 /* Example.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,10 @@
 		A025726918AE0892003BB3A1 /* iPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPadViewController.h; sourceTree = "<group>"; };
 		A025726A18AE0892003BB3A1 /* iPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPadViewController.m; sourceTree = "<group>"; };
 		A025726C18AE0D8C003BB3A1 /* iPadView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = iPadView; sourceTree = "<group>"; };
+		A025727118AE1486003BB3A1 /* Example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Example.h; path = ClassicCarView/iPadView/Example.h; sourceTree = "<group>"; };
+		A025727218AE1486003BB3A1 /* Example.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Example.m; path = ClassicCarView/iPadView/Example.m; sourceTree = "<group>"; };
+		A025727418AE14C5003BB3A1 /* Example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Example.h; path = ClassicCarView/iPhoneView/Example.h; sourceTree = "<group>"; };
+		A025727518AE14C5003BB3A1 /* Example.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Example.m; path = ClassicCarView/iPhoneView/Example.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 		A025722718AE0365003BB3A1 = {
 			isa = PBXGroup;
 			children = (
+				A025727418AE14C5003BB3A1 /* Example.h */,
+				A025727518AE14C5003BB3A1 /* Example.m */,
+				A025727118AE1486003BB3A1 /* Example.h */,
+				A025727218AE1486003BB3A1 /* Example.m */,
 				A025723918AE0365003BB3A1 /* ClassicCarView */,
 				A025725218AE0365003BB3A1 /* ClassicCarViewTests */,
 				A025723218AE0365003BB3A1 /* Frameworks */,
@@ -262,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A025726B18AE0892003BB3A1 /* iPadViewController.m in Sources */,
+				A025727318AE1486003BB3A1 /* Example.m in Sources */,
+				A025727618AE14C5003BB3A1 /* Example.m in Sources */,
 				A025726818AE086D003BB3A1 /* iPhoneViewController.m in Sources */,
 				A025724418AE0365003BB3A1 /* AppDelegate.m in Sources */,
 				A025724018AE0365003BB3A1 /* main.m in Sources */,
