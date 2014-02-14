@@ -7,8 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "iPadViewController.h"
+#import "iPhoneViewController.h"
+
+#define isiPhone  (UI_USER_INTERFACE_IDIOM() == 0)?TRUE:FALSE
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
+{
+    iPadViewController* _ipad;
+    iPhoneViewController* _iphone;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 

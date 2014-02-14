@@ -19,6 +19,11 @@
 		A025724F18AE0365003BB3A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A025723718AE0365003BB3A1 /* UIKit.framework */; };
 		A025725718AE0365003BB3A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A025725518AE0365003BB3A1 /* InfoPlist.strings */; };
 		A025725918AE0365003BB3A1 /* ClassicCarViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A025725818AE0365003BB3A1 /* ClassicCarViewTests.m */; };
+		A025726318AE0817003BB3A1 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = A025726218AE0817003BB3A1 /* Model */; };
+		A025726518AE0823003BB3A1 /* iPhoneView in Resources */ = {isa = PBXBuildFile; fileRef = A025726418AE0823003BB3A1 /* iPhoneView */; };
+		A025726818AE086D003BB3A1 /* iPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A025726718AE086D003BB3A1 /* iPhoneViewController.m */; };
+		A025726B18AE0892003BB3A1 /* iPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A025726A18AE0892003BB3A1 /* iPadViewController.m */; };
+		A025726D18AE0D8C003BB3A1 /* iPadView in Resources */ = {isa = PBXBuildFile; fileRef = A025726C18AE0D8C003BB3A1 /* iPadView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,13 @@
 		A025725418AE0365003BB3A1 /* ClassicCarViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClassicCarViewTests-Info.plist"; sourceTree = "<group>"; };
 		A025725618AE0365003BB3A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A025725818AE0365003BB3A1 /* ClassicCarViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassicCarViewTests.m; sourceTree = "<group>"; };
+		A025726218AE0817003BB3A1 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
+		A025726418AE0823003BB3A1 /* iPhoneView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = iPhoneView; sourceTree = "<group>"; };
+		A025726618AE086D003BB3A1 /* iPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneViewController.h; sourceTree = "<group>"; };
+		A025726718AE086D003BB3A1 /* iPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneViewController.m; sourceTree = "<group>"; };
+		A025726918AE0892003BB3A1 /* iPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPadViewController.h; sourceTree = "<group>"; };
+		A025726A18AE0892003BB3A1 /* iPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPadViewController.m; sourceTree = "<group>"; };
+		A025726C18AE0D8C003BB3A1 /* iPadView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = iPadView; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +119,15 @@
 		A025723918AE0365003BB3A1 /* ClassicCarView */ = {
 			isa = PBXGroup;
 			children = (
+				A025726C18AE0D8C003BB3A1 /* iPadView */,
+				A025726418AE0823003BB3A1 /* iPhoneView */,
+				A025726218AE0817003BB3A1 /* Model */,
 				A025724218AE0365003BB3A1 /* AppDelegate.h */,
 				A025724318AE0365003BB3A1 /* AppDelegate.m */,
+				A025726918AE0892003BB3A1 /* iPadViewController.h */,
+				A025726A18AE0892003BB3A1 /* iPadViewController.m */,
+				A025726618AE086D003BB3A1 /* iPhoneViewController.h */,
+				A025726718AE086D003BB3A1 /* iPhoneViewController.m */,
 				A025724518AE0365003BB3A1 /* Images.xcassets */,
 				A025723A18AE0365003BB3A1 /* Supporting Files */,
 			);
@@ -219,6 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A025726518AE0823003BB3A1 /* iPhoneView in Resources */,
+				A025726D18AE0D8C003BB3A1 /* iPadView in Resources */,
+				A025726318AE0817003BB3A1 /* Model in Resources */,
 				A025723E18AE0365003BB3A1 /* InfoPlist.strings in Resources */,
 				A025724618AE0365003BB3A1 /* Images.xcassets in Resources */,
 			);
@@ -239,6 +261,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A025726B18AE0892003BB3A1 /* iPadViewController.m in Sources */,
+				A025726818AE086D003BB3A1 /* iPhoneViewController.m in Sources */,
 				A025724418AE0365003BB3A1 /* AppDelegate.m in Sources */,
 				A025724018AE0365003BB3A1 /* main.m in Sources */,
 			);

@@ -14,6 +14,24 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    // iphone
+    if(isiPhone){
+        _iphone = [[iPhoneViewController alloc] initWithNibName:Nil bundle:Nil];
+        [_iphone setWidthHeight:self.window.frame.size.width :self.window.frame.size.height ];
+        [_iphone initIPHONEView];
+        
+        self.window.rootViewController = _iphone;
+        [self.window addSubview:_iphone.view];
+    }
+    // iPad
+    else{
+        _ipad = [[iPadViewController alloc] initWithNibName:Nil bundle:Nil];
+        [_ipad setWidthHeight:self.window.frame.size.width :self.window.frame.size.height ];
+        [_ipad initIPADView];
+        
+        self.window.rootViewController = _ipad;
+        [self.window addSubview:_ipad.view];
+    }
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
